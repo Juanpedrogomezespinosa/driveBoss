@@ -1,4 +1,4 @@
-# Disco-duro
+# Backend
 
 Proyecto 2 Hack a Boss
 
@@ -48,10 +48,14 @@ Folders :
 
 Files:
 
-• POST /files] : Añade un archivo.
+• POST [/files] : Añade un archivo.
 
 • GET [/files] : Lista todos los archivos.
 
 • GET [/download/:idFile] : Descarga un archivo.
 
 • DELETE [/users/:idUser/files/:idFile] : Elimina un archivo.
+
+## Frontend
+
+Esta aplicación consiste en un disco duro virtual que permite a los usuarios subir, descargar y organizar archivos y carpetas en un entorno web. Utiliza React como librería de frontend y Node.js con Express como servidor de backend. Los archivos y carpetas se almacenan en el sistema de archivos del servidor, y se accede a ellos a través de una interfaz web intuitiva y fácil de usar. La aplicación también incluye características de seguridad para proteger los archivos del usuario y garantizar su privacidad.
